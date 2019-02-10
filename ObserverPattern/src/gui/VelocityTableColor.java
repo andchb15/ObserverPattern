@@ -24,15 +24,41 @@ public class VelocityTableColor extends javax.swing.JFrame implements VelocityOb
     {
         initComponents();
     }
-    
+
     @Override
     public void update(VelocityEntry e)
     {
         if (e.getComboStrasse().equals(Strasse.AUTOBAHN))
         {
-            lbBackground.setBackground(Color.red);     
+            if (e.getVelo() > 130)
+            {
+                lbBackground.setBackground(Color.red);
+            } else
+            {
+                lbBackground.setBackground(Color.green);
+            }
         }
-        
+        if (e.getComboStrasse().equals(Strasse.FREILANDSTRASSE))
+        {
+            if (e.getVelo() > 100)
+            {
+                lbBackground.setBackground(Color.red);
+            } else
+            {
+                lbBackground.setBackground(Color.green);
+            }
+        }
+        if (e.getComboStrasse().equals(Strasse.DORFSTRASSE))
+        {
+            if (e.getVelo() > 50)
+            {
+                lbBackground.setBackground(Color.red);
+            } else
+            {
+                lbBackground.setBackground(Color.green);
+            }
+        }
+
     }
 
     /**

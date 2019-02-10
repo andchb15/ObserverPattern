@@ -1,7 +1,7 @@
 package packageMain;
 
 import bl.VelocityBL;
-import gui.VeloCityTable;
+import gui.VelocityTable;
 import gui.VelocityTableColor;
 import gui.VelocityTableInput;
 
@@ -17,12 +17,12 @@ public class Main
         VelocityBL bl = new VelocityBL();
         VelocityTableColor color = new VelocityTableColor();
         VelocityTableInput input = new VelocityTableInput();
-        VeloCityTable table = new VeloCityTable();
-        
-        bl.register(color);   
-       
+        VelocityTable table = new VelocityTable();
+
+        bl.register(color);
+
         table.setVisible(true);
-        color.setVisible(true);        
+        color.setVisible(true);
         input.setVisible(true);
     }
 
