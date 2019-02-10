@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/gui/VeloCityTable.java</file>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/bl/VelocityBL.java</file>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/observer/VelocitySubject.java</file>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/packageMain/Main.java</file>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/observer/VelocityObserver.java</file>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/bl/VelocityEntry.java</file>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/packageMain/Strasse.java</file>
+            <file>file:/C:/Users/Christopher%20Andrä/Documents/NetBeansProjects/ObserverPattern/src/gui/VelocityTableColor.java</file>
+        </group>
+    </open-files>
+</project-private>
