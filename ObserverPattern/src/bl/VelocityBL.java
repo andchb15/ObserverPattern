@@ -15,7 +15,6 @@ import observer.VelocitySubject;
  */
 public class VelocityBL implements VelocitySubject
 {
-    
 
     private ArrayList<VelocityEntry> entries = new ArrayList();
     private ArrayList<VelocityObserver> observers = new ArrayList();
@@ -38,6 +37,13 @@ public class VelocityBL implements VelocitySubject
         observers.remove(observer);
     }
 
- 
+    @Override
+    public void inform(VelocityEntry e)
+    {
+        for(VelocityObserver observer : observers)
+        {
+            observer.update(e);
+        }
+    }
 
 }
